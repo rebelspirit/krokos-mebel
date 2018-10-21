@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>krokos mebel</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel="stylesheet">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="wrapper" id="app">
+      <header>
+        <nav>
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo">Kitchenfrost ltd.</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a class='dropdown-trigger' data-target='dropdown1' href="#">Кухни на заказ</a></li>
+              <!-- Dropdown Structure -->
+              <ul id='dropdown1' class='dropdown-content'>
+                <li><a href="#!">Модульные кухни</a></li>
+                <li><a href="#!">Угловые кухни</a></li>
+                <li><a href="#!">Комплекты кухонь</a></li>
+                <li><a href="#!">Кухни на заказ</a></li>
+              </ul>
+              <li><a href="#">Отзывы</a></li>
+              <li><a href="#">О компании</a></li>
+              <li><a href="#">Контакты</a></li>
+              <li><a class="waves-effect waves-light btn tooltipped red lighten-3" data-position="bottom" data-tooltip="Заказать звонок?"><i class="material-icons left">local_phone</i>+38 (044) 391-30-08</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <main>
+        
+        <!--SIDEBAR START-->
+        <ul id="slide-out" class="sidenav">
+          <li><a class="subheader">Типо заголовок</a></li>
+          <li><div class="divider"></div></li>
+          <li><a href="#!"><i class="material-icons">cloud</i>Заголовок с иконкой</a></li>
+          <li><a href="#!">Просто заголовок</a></li>
+          <li><a class="waves-effect" href="#!">И просто тоже..</a></li>
+        </ul>
+        <!--SIDEBAR START-->
+        <div class="parallax-container">
+          <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <div class="parallax"><img src="img/bg_test2.jpg"></div>
+          <h1>Почему стоит заказать кухню именно у нас?</h1>
+          <div class="benefits-wrap">
+            <div class="benefits-container">
+              <h4>Индивидуальный подход</h4>
+              <p>Задача нашей компании оставить довольным каждого клиента, без исключения</p>
+            </div>
+            <div class="benefits-container">
+              <h4>Свое производство</h4>
+              <p>Наш подход к делу позволяет контролировать все этапы производства, от первичной визуализации до установки</p>
+            </div>
+            <div class="benefits-container">
+              <h4>Бесплатная визуализация</h4>
+              <p>Обратившись к нам, Вы получите визуализацию мебели совершенно бесплатно</p>
+            </div>
+            <div class="benefits-container">
+              <h4>Экологичность</h4>
+              <p>вропейские материалы и комплектующие обеспечивают безопасность и качество изделий</p>
+            </div>
+          </div>
+          <div class="callback">
+            <a class="waves-effect waves-light btn-large tooltipped red lighten-3 modal-trigger" data-position="right" data-tooltip="Заполните форму для связи" href="#modal1"><i class="material-icons left">send</i>Отправить заявку</a>
+          </div>
+          <!-- Modal Structure -->
+          <div id="modal1" class="modal">
+            <div class="modal-content">
+              <h3>Форма обратной связи</h3>
+              <div class="row">
+                <form class="col s12">
+                  <div class="row">
+                    <div class="input-field col s6">
+                      <i class="material-icons prefix">account_circle</i>
+                      <input id="icon_prefix" type="text" class="validate">
+                      <label for="icon_prefix">Имя</label>
+                    </div>
+                    <div class="input-field col s6">
+                      <i class="material-icons prefix">account_circle</i>
+                      <input id="last_name" type="text" class="validate">
+                      <label for="last_name">Фамилия</label>
+                    </div>
+                    <div class="input-field col s6">
+                      <i class="material-icons prefix">phone</i>
+                      <input id="icon_telephone" type="tel" class="validate">
+                      <label for="icon_telephone">Telephone</label>
+                    </div>
+                    <div class="input-field col s6">
+                      <i class="material-icons prefix">send</i>
+                      <input id="email" type="email" class="validate">
+                      <label for="email">Email</label>
+                      <span class="helper-text" data-error="wrong" data-success="right">email@email.com</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class="modal-close waves-effect waves-red btn-flat">Отправить</a>
+            </div>
+          </div>
+        </div>
+        <div class="blocks-name">
+          <h2>Наши работы</h2>
+          <div class="row-wrap">
+            <div class="bottom-row-1">
+              <hr>
+            </div>
+            <div class="bottom-row-2">
+              <hr>
+            </div>
+          </div>
+        </div>
+
+        <!-- SLIDER -->
+        <div class="slider-wrap">
+          <div class="card-wrap" v-for="item in test">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" v-bind:src="item.image">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">{{ item.name }}<i class="material-icons right">more_vert</i></span>
+                <div v-bind:href="item.modalId" class="modal-trigger waves-effect text-color-blue">Подробней</div>
+              </div>
+        <!-- Modal Description Structure -->
+        <div v-bind:id="item.modalNumber" class="modal-scroll modal  modal-style">
+          <div class="modal-content">
+          	 <i class="material-icons modal-close modal-close-style btn-flat">clear</i>
+            <h4>Дополнительная информация "{{ item.name }}"</h4>
+            <p>{{ item.modalDescription }}</p>
+            <h5>Техническое описание</h5>
+          			  <table class="highlight">
+       			 <thead>
+         			 <tr>
+             			 <th>Name</th>
+             			 <th>Description</th>
+             			 <th>Item Price</th>
+         			 </tr>
+       			 </thead>
+
+       			 <tbody>
+        			  <tr>
+          			  	<td>DSP</td>
+          			  	<td>Some description</td>
+          			  	<td>$0.87</td>
+         			 </tr>
+         			 <tr>
+          			  	<td>Wooden Rollet</td>
+           			 	<td>Some description</td>
+           			 	<td>$3.76</td>
+         			 </tr>
+         			 <tr>
+            			<td>Iron Items</td>
+            			<td>Some description</td>
+            			<td>$7.00</td>
+          			</tr>
+        			</tbody>
+      			</table>
+      		<h5>Фотографии кухни</h5>
+            <div class="material-box">
+        	<img class="materialboxed" height="300" width="350" src="img/office.jpg">
+        	<img class="materialboxed" height="300" width="350" src="img/kitchen4.jpg">
+        	<img class="materialboxed" height="300" width="350" src="img/kitchen1.jpg">
+        	<img class="materialboxed" height="300" width="350" src="img/kitchen2.jpg">
+        	<img class="materialboxed" height="300" width="350" src="img/kitchen4.jpg">
+        	<img class="materialboxed" height="300" width="350" src="img/kitchen1.jpg">
+        	<img class="materialboxed" height="300" width="350" src="img/kitchen2.jpg">
+        	</div>
+          </div>
+          <div class="modal-footer">
+
+          </div>
+        </div>
+        <!-- END Modal Description Structure -->
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">{{ item.name }}<i class="material-icons right">close</i></span>
+                <p>{{ item.description }}</p>
+              </div>
+            </div>
+          </div>
+          </div>
+        <!-- END SLIDER -->
+
+        <!-- Pagination -->
+        <ul class="pagination">
+          <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+          <li class="waves-effect numbersArr active" v-on:click="slider(kitchenData[0])" onclick="app.buttonActive(this)"><a href="javascript:void(0)">1</a></li>
+          <li class="waves-effect numbersArr" v-on:click="slider(kitchenData[1])" onclick="app.buttonActive(this)"><a href="#!">2</a></li>
+          <li class="waves-effect numbersArr" v-on:click="slider(kitchenData[2])" onclick="app.buttonActive(this)"><a href="#!">3</a></li>
+          <li class="waves-effect numbersArr" v-on:click="slider(kitchenData[3])" onclick="app.buttonActive(this)"><a href="#!">4</a></li>
+          <li class="waves-effect numbersArr" v-on:click="slider(kitchenData[4])" onclick="app.buttonActive(this)"><a href="#!">5</a></li>
+          
+          <li class="disabled"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+        </ul>
+        <!-- END Pagination -->
+
+        <div class="parallax-container">
+          <h2>Кухня на заказ - это просто!</h2>
+          <h5>Изготовление кухонного гарнитура — сложный и многоэтапный процесс, но для нашего покупателя это всего 4 шага:</h5>
+          <div class="parallax"><img src="img/bg_test4.jpg"></div>
+          <div class="simple-kitchen-wrap">
+            <div class="simple-kitchen">
+              <h4>1. Бесплатный дизайн-проект</h4>
+              <p>Дизайнер создаст визуализацию изделия, учитывая все Ваши пожелания</p>
+            </div>
+            <div class="simple-kitchen">
+              <h4>2. Быстрый и точный замер</h4>
+              <p>Специалисты приедут в удобное для Вас время</p>
+            </div>
+            <div class="simple-kitchen">
+              <h4>3. Производство кухни</h4>
+              <p>После заключения договора дизайн-проект отправляется на фабрику</p>
+            </div>
+            <div class="simple-kitchen">
+              <h4>4. Доставка и сборка</h4>
+              <p>Доставим и установим мебель и технику, когда Вам это будет удобно</p>
+            </div>
+          </div>
+        </div>
+        <div class="blocks-name">
+          <h2>Остались дополнительные вопросы?</h2>
+          <h5>Заполните форму обратной связи и мы перезвоним Вам в ближайшее время!</h5>
+        </div>
+        <div class="callback-wrap">
+          <div class="manager-img">
+            <img class="responsive-img" src="img/manager.png">
+          </div>
+          <div class="modal-content">
+            <div class="row">
+              <form class="col s12">
+                <div class="row">
+                  <div class="input-field col s6">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input id="icon_prefix" type="text" class="validate">
+                    <label for="icon_prefix">Имя</label>
+                  </div>
+                  <div class="input-field col s6">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input id="last_name" type="text" class="validate">
+                    <label for="last_name">Фамилия</label>
+                  </div>
+                  <div class="input-field col s6">
+                    <i class="material-icons prefix">phone</i>
+                    <input id="icon_telephone" type="tel" class="validate">
+                    <label for="icon_telephone">Telephone</label>
+                  </div>
+                  <div class="input-field col s6">
+                    <i class="material-icons prefix">send</i>
+                    <input id="email" type="email" class="validate">
+                    <label for="email">Email</label>
+                    <span class="helper-text" data-error="wrong" data-success="right">email@email.com</span>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class="modal-close waves-effect btn red lighten-3">Отправить</a>
+            </div>
+          </div>
+        </div>
+        <div class="parallax-container">
+          <h2>Наши поставщики и партнеры</h2>
+          <h5>Мы используем только лучшие материалы и фурнитуру</h5>
+          <div class="partners-wrap">
+            <img class="responsive-img" src="img/1.png">
+            <img class="responsive-img" src="img/2.png">
+            <img class="responsive-img" src="img/4.png">
+            <img class="responsive-img" src="img/5.png">
+          </div>
+          <div class="parallax"><img src="img/bg_test5.jpg"></div>
+        </div>
+       <div class="container">
+          <div class="blocks-name">
+          <h2>Отзывы клиентов</h2>
+          <fieldset>
+            <legend>&nbsp;</legend>
+          </fieldset>
+        </div>
+            <div class="carousel1">
+              <div>
+                <h2>Анюта</h2>
+                <p>Заказывала кухню, очень приятные и вежливый коллектив! Воплотили в реальность мое желание! Работа была сделана быстро, слаженно и качественно! Огромное спасибо!</p>
+              </div>
+              <div>
+                <h2>Александр</h2>
+                <p>Теперь мы счастливые обладатели кухни нашей мечты. Цель была не из лёгких - эко-пространство с современными нотками. Но сотрудничество прошло без сучка и задоринки: дизайнер учёл наши пожелания и создал проект, который и воплотили в жизнь. Спасибо! Обязательно обратимся ещё.</p>
+              </div>
+              <div>
+                <h2>Марина</h2>
+                <p>Заказывали мебель по индивидуальному заказу. Хотелось бы выразить благодарность компании за соблюдение сроков и требований. Качество мебели сотрудники фирмы оценили по достоинству. Будем и дальше сотрудничать с вами. Успехов!</p>
+              </div>
+              <div>
+                <h2>Алла</h2>
+                <p>Вот я и получила гардеробную от Крокос. Ребята,спасибо огромное Вашей команде. Учли все мои пожелания и прихоти. Качество отличное ,все выполнено в сроки. Теперь гардеробная - это любимое место!</p>
+              </div>
+            </div>
+        </div>
+        <div class="video">
+        	<div class="video-item">
+        		<iframe width="550" height="300" src="https://www.youtube.com/embed/BCPAR4TCOT8" frameborder="0" allowfullscreen=""></iframe>
+        	</div>
+        	<div class="video-item">
+        		<iframe width="550" height="300" src="https://www.youtube.com/embed/BCPAR4TCOT8" frameborder="0" allowfullscreen=""></iframe>
+        	</div>
+        	<div class="video-item">
+        		<iframe width="550" height="300" src="https://www.youtube.com/embed/BCPAR4TCOT8" frameborder="0" allowfullscreen=""></iframe>
+        	</div>
+        	<div class="video-item">
+        		<iframe width="550" height="300" src="https://www.youtube.com/embed/BCPAR4TCOT8" frameborder="0" allowfullscreen=""></iframe>
+        	</div>
+        	<div class="video-item">
+        		<iframe width="550" height="300" src="https://www.youtube.com/embed/BCPAR4TCOT8" frameborder="0" allowfullscreen=""></iframe>
+        	</div>
+        	<div class="video-item">
+        		<iframe width="550" height="300" src="https://www.youtube.com/embed/BCPAR4TCOT8" frameborder="0" allowfullscreen=""></iframe>
+        	</div>
+
+        </div>
+       </div>
+      </main>
+      <footer class="page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Контакты</h5>
+              <p class="grey-text text-lighten-4">Киев, ул. Шолуденка 1Б, офис 14</p>
+              <p>Пн-Пт 10-19; <br>  Сб-Вс по записи</p>
+              <p>E-mail: krokosmebel@gmail.com</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Социальные сети</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Instagram</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">YouTube</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">LinkedIn</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+            © 2014 Copyright Kitchenfrost ltd.
+            <a class="grey-text text-lighten-4 right" href="#!">Made by VM Studio</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/app.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+  <script>
+  $(document).ready(function(){
+      $('.carousel1').slick({
+        dots: true,
+        speed: 1000,
+        slidesToShow: 1,
+        autoplay: true,
+        arrows: false,
+      });
+    });
+  </script>
+  </body>
+</html>
